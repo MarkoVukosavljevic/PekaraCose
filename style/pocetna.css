@@ -1,0 +1,102 @@
+body {
+    background-image: url(https://i.imgur.com/3aRDsg3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#menu ul li {
+    background-color: rgb(133, 54, 54);
+    float: left;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 4;
+    margin-bottom: auto;
+    border-radius: 7mm;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 54, 54);
+    background-color: white;
+}
+
+#formaKomentari {
+
+    font-size: 22px;
+    margin: 5mm;
+    padding: 5mm;
+    width: 30%;
+    background-color: rgb(133, 54, 54);
+    color: white;
+    border: white solid 3px;
+    border-radius: 5mm;
+}
+
+#kontaktForma {
+    text-align: center;
+    border: white 2px solid;
+}
+
+#tekstArea {
+    resize: none;
+}
+
+#paragrafPocetna {
+    background-color: rgb(133, 54, 54);
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    border-radius: 5mm;
+    padding: 5px;
+    border: white 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#uveksveze {
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 30px
+}
+
+#popust {
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 30px
+}
+
+#dostava {
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 30px
+}
+
+#naslov1 {
+    background-color: white;
+    color: rgb(133, 54, 54);
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: cursive;
+}
+
+#celaPocetna {
+    display: flex;
+    flex-direction: column;
+
+}

@@ -1,0 +1,140 @@
+body {
+    background-image: url("https://i.imgur.com/N7yQ5UO.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#menu ul li {
+    background-color: rgb(133, 54, 54);
+    float: left;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 4;
+    margin-bottom: auto;
+    border-radius: 7mm;
+}
+
+a {
+
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 54, 54);
+    background-color: white;
+}
+
+
+
+#formaNaruci {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(133, 54, 54);
+    border: white solid 22px;
+    outline: rgb(133, 54, 54) solid 20px;
+    margin: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    /* background-color: gainsboro; */
+    background-color: rgb(172, 143, 143);
+    outline-offset: -4.2mm;
+    outline-style: double;
+}
+
+#formaNaruci :hover {
+    font-size: 30px;
+}
+
+#kolicina {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+#kolicina2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#kolicina3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+#kolicina4 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+
+#veliki {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#dugmici {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 40px;
+
+}
+
+#label2 {
+    margin-left: 100px;
+}
+
+#label3 {
+    margin-left: 100px;
+}
+
+#label4 {
+    margin-left: 90px;
+}
+
+#poruci {
+    padding: 2mm;
+    color: white;
+    background-color: rgb(133, 54, 54);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5mm;
+    border-radius: 3mm;
+
+}
+
+#resetuj {
+    padding: 2mm;
+    color: white;
+    background-color: rgb(133, 54, 54);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 5mm;
+    border-radius: 3mm;
+
+}
+
+#naslov1 {
+    background-color: white;
+    color: rgb(133, 54, 54);
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: cursive;
+}
