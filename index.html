@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pekara Zlatno Ćoše</title>
+  <link rel="stylesheet" href="style/pocetna.css">
+  <link rel="icon" href="https://i.imgur.com/ruNaAIV.jpg">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="Jquery/script2.js"></script>
+
+</head>
+
+<body>
+  <script src="JavaScript/index.js"></script>
+  <div id="menu">
+    <ul>
+      <div id="prviEl">
+        <li><a href="index.html"><img src="https://i.imgur.com/ruNaAIV.jpg"></a></li>
+      </div>
+      <li><a href="proizvodi.html" target="blank 3">Proizvodi</a> </li>
+      <li><a href="naruci.html" target="blank 2">Naruči</a></li>
+      <li><a href="oNama.html" target="blank 1">O nama</a></li>
+    </ul>
+  </div>
+  <h1 id="naslov1"> Pekara Zlatno Ćoše</h1>
+  <div id="celaPocetna">
+    <div id="paragrafPocetna">
+      <img src="slike/uveksveze.png" id="uveksveze">
+      <div id="paragrafPrvi">
+        <h1>Uvek sveže</h1>
+        <p>
+          Sva peciva su napravljenja od brašna<br>
+          iz naših mlinova od najfinije pšenice<br>
+          sa prostranih vojvođanskih polja,<br>
+          sa prepoznatljivim ukusom i još<br>
+          lepšim mirisom.<br>
+        </p>
+      </div>
+      <img src="slike/popust.png" id="popust">
+      <div id="paragrafDrugi">
+        <h1>Akcije i popusti</h1>
+        <p>
+          Svakog petka uz porucenu picu<br>
+          ili mornarski sendvič, dobijate<br>
+          i piće Coca-cola 0.3l.<br>
+          Za djake iz osnovnih škola, za vreme velikog odmora<br>
+          rol viršla je 90 dinara.<br>
+        </p>
+      </div>
+      <img src="slike/dostava.png" id="dostava">
+      <div id="paragrafTreci">
+        <h1>Brza dostava</h1>
+        <p>
+          Dostava je uvek besplatna za sve porudžbine<br>
+          skuplje od 600 dinara. Naš region dostave obuhvata<br>
+          Savski Venac, Voždovac i Vračar. Za jeftinije porudžbine dostava<br>
+          se naplaćuje 350 dinara. Naš tim vozača garantuje da hrana stiže<br>
+          za pola sata ili vraćamo novac.<br>
+        </p>
+      </div>
+    </div>
+    <form id="formaKomentari" name="komentari">
+      <p id="kontaktForma">Kontakt Forma</p><br>
+      Ime i prezime:<input id="imePrezime" type="text" name="imeprezime" placeholder="Vaše ime i prezime">
+      <br>
+      <br>
+      E-mail:<input id="email" type="email" name="email" placeholder="Vaš email" required>
+      <br>
+      <br>
+      <textarea rows="10" cols="50" id="tekstArea">Vaša poruka
+      </textarea>
+      <br>
+      Pišem u cilju:<br>
+      <input type="checkbox" name="CiljPoruke" value="Žalbe">Žalbe<br>
+      <input type="checkbox" name="CiljPoruke" value="Kritike">Kritike<br>
+      <input type="checkbox" name="CiljPoruke" value="Pohvale">Pohvale<br>
+
+      <input id type="submit" value="Pošalji" onclick="notifikacijePosalji()">
+      <input type="reset" value="Obriši sve" onclick="notifikacijeResetuj()">
+      <button name="odstampaj" id="odtsampaj" onclick="odstampajPoruku()">Odštampaj stranicu</button>
+
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruči</title>
+    <link rel="stylesheet" href="style/poruci.css">
+    <link rel="icon" href="slike/dostava.png">
+    
+    
+</head>
+
+<body>
+    <script src="JavaScript/naruci.js"></script>
+    <div id="menu">
+        <ul>
+            <div id="prviEl">
+                <li><a href="index.html"><img src="https://i.imgur.com/ruNaAIV.jpg"></a></li>
+            </div>
+            <li><a href="proizvodi.html" target="blank 3">Proizvodi</a> </li>
+            <li><a href="naruci.html" target="blank 2">Naruči</a></li>
+            <li><a href="oNama.html" target="blank 1">O nama</a></li>
+        </ul>
+    </div>
+    <h1 id="naslov1"> Naruči ukusne proizvode</h1>
+    <form name="porudzbina" id="formaNaruci">
+        Ime i prezime:
+        <input id="polje" type="text" name="ime" required>
+        <br>
+        Adresa:
+        <input  type="text" name="adresa" required>
+        <br>
+        Telefon:
+        <input type="tel" name="telefon" required>
+        <br>
+        <label for="select1" id="label1">Izaberi pizzu:</label>
+        <select name="select1" label="Pice">
+            <optgroup label="P I Z Z A">
+                <option> </option>
+            <optgroup label="Pizza Vesuvio">
+                <option> Pizza Vesuvio 32cm</option>
+                <option> Pizza Vesuvio 50cm</option>
+
+            </optgroup>
+            <optgroup label="Pizza Capriocciosa">
+                <option> Pizza Capriocciosa 32cm</option>
+                <option> Pizza Capriocciosa 50cm</option>
+
+            </optgroup>
+            <optgroup label="Pizza Margarita">
+                <option> Pizza Margarita 32cm</option>
+                <option> Pizza Margarita 50cm</option>
+
+            </optgroup>
+
+
+
+            </optgroup>
+        </select>
+        <label for="select2" id="label2">Izaberi pecivo:</label>
+        <select name="select2" label="Peciva">
+            <optgroup label="P E C I V A">
+                <option> </option>
+            <optgroup label="Burek">
+                <option> Burek prazan</option>
+                <option> Burek sa mesom</option>
+                <option> Burek sa sirom</option>
+            </optgroup>
+            <option> Rol virsla</option>
+
+
+            <option> Pletenica</option>
+            <option> Trougao sa sirom</option>
+            </optgroup>
+
+        </select>
+        <label for="select3" id="label3">Izaberi sendvic:</label>
+        <select name="select3" label="Sendvici">
+            <optgroup label="S E N D V I C I">
+                <option> </option>
+
+                <option> Beogradski indeks </option>
+                <option> Mornarski </option>
+                <option> Bavarski sa prsutom</option>
+
+                <option> Capresse</option>
+
+
+                <option> Njegoski</option>
+
+            </optgroup>
+
+        </select>
+
+        <label for="select4" id="label4">Izaberi kolace:</label>
+        <select name="select4" label="Kolaci" selected="none">
+            <optgroup label="K O L A C I">
+                <option> </option>
+
+                <option> Tiramisu </option>
+                <option> Bajaderice </option>
+                <option> Cheese cake</option>
+
+                <option> Trilece</option>
+
+
+                <option> Profiterole</option>
+
+
+            </optgroup>
+
+        </select>
+        <br>
+        <p>Količina koju zahtevate:</p>
+        <div id="veliki">
+            <div id="kolicina">
+                <div id="pojedno"><label for="radiopolje1" id="label5">Po jedno:</label>
+                    <input type="radio" name="radiopolje1"></div>
+
+                <div id="podva"><label for="radiopolje1" id="label6">Po dva:</label>
+                    <input type="radio" name="radiopolje1"></div>
+
+                <div id="potri"><label for="radiopolje1" id="label7">Po tri:</label>
+                    <input type="radio" name="radiopolje1"></div>
+
+                <div id="pocetri"><label for="radiopolje1" id="label8">Po cetri:</label>
+                    <input type="radio" name="radiopolje1"></div>
+            </div>
+            <div id="kolicina2">
+                <div id="pojedno2"><label for="radiopolje2" id="label9">Po jedno:</label>
+                    <input type="radio" name="radiopolje2" value="1"></div>
+
+                <div id="podva2"><label for="radiopolje2" id="label10">Po dva:</label>
+                    <input type="radio" name="radiopolje2" value="1"></div>
+
+                <div id="potri2"><label for="radiopolje2" id="label11">Po tri:</label>
+                    <input type="radio" name="radiopolje2" value="1"></div>
+
+                <div id="pocetri2"><label for="radiopolje2" id="label12">Po cetri:</label>
+                    <input type="radio" name="radiopolje2" value="1"></div>
+            </div>
+            <div id="kolicina3">
+                <div id="pojedno3"><label for="radiopolje3" id="label13">Po jedno:</label>
+                    <input type="radio" name="radiopolje3" value="1"></div>
+
+                <div id="podva3"><label for="radiopolje3" id="label14">Po dva:</label>
+                    <input type="radio" name="radiopolje3" value="1"></div>
+
+                <div id="potri3"><label for="radiopolje3" id="label15">Po tri:</label>
+                    <input type="radio" name="radiopolje3" value="1"></div>
+
+                <div id="pocetri3"><label for="radiopolje3" id="label16">Po cetri:</label>
+                    <input type="radio" name="radiopolje3" value="1"></div>
+            </div>
+            <div id="kolicina4">
+                <div id="pojedno4"><label for="radiopolje4" id="label17">Po jedno:</label>
+                    <input type="radio" name="radiopolje4" value="1"></div>
+
+                <div id="podva4"><label for="radiopolje4" id="label18">Po dva:</label>
+                    <input type="radio" name="radiopolje4" value="1"></div>
+
+                <div id="potri4"><label for="radiopolje4" id="label19">Po tri:</label>
+                    <input type="radio" name="radiopolje4" value="1"></div>
+
+                <div id="pocetri4"><label for="radiopolje4" id="label20">Po četri:</label>
+                    <input type="radio" name="radiopolje4" value="1"></div>
+            </div>
+
+        </div>
+        <p>Način plaćanja:</p>
+        <input type="radio" name="nacinPlacanja" value="Kartica" onclick="vratiVreme()">Kartica<br>
+        <input type="radio" name="nacinPlacanja" value="Keš" onclick="vratiVreme()">Keš<br>
+        <p id="paragrafZaDatum"></p>
+        <!-- paragraf za prikaz vremena -->
+        <div id="dugmici">
+            <input type="submit" name="poruci" id="poruci" value="PORUČI" onclick="notifikacijePoruci()">
+            <input type="reset" name="resetuj" id="resetuj" value=RESETUJ>
+        </div>
+    </form>
+</body>
+
+</html>

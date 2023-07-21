@@ -1,0 +1,180 @@
+body {
+    background-image: url("https://opusteno.rs/slike/2013/04/znacenje-boja-bez-17927/znacenje-boja-bez-sp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#menu ul li {
+    background-color: rgb(133, 54, 54);
+    float: left;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 4;
+    margin-bottom: auto;
+    border-radius: 7mm;
+}
+
+a {
+
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 54, 54);
+    background-color: white;
+}
+
+
+p {
+    font-family: cursive;
+    margin-left: 100px;
+    margin-right: 150px;
+    font-style: italic;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+
+#slikaPekaraStara {
+    border-radius: 50%;
+}
+
+#gornjeSlike {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+#donjeSlike {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 170px;
+}
+
+
+#slikaPekaraSada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 4mm;
+    border: yellow 1px solid;
+}
+
+h1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: cursive;
+
+    color: rgb(133, 54, 54);
+    background-color: white;
+
+    text-align: center;
+
+
+}
+
+#slikaTelefon {
+    margin-left: 100px;
+}
+
+#slikaLokacija {
+    margin-left: 100px;
+}
+
+#slikaMail {
+    margin-left: 100px;
+    margin-right: 3px;
+}
+
+#slikaFacebook {
+    margin-left: 100px;
+}
+
+#paragrafTekst {
+    padding: 11px;
+    font-size: 20px;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(133, 54, 54);
+
+    outline: rgb(133, 54, 54) 3px solid;
+
+}
+
+#paragrafTekst1 {
+    padding: 11px;
+    font-size: 20px;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(133, 54, 54);
+
+    outline: rgb(133, 54, 54) 3px solid;
+
+}
+
+#paragrafTekst2 {
+    padding: 11px;
+    font-size: 20px;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(133, 54, 54);
+
+    outline: rgb(133, 54, 54) 3px solid;
+
+}
+
+#divKontakt {
+    padding: 11px;
+    font-size: 20px;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(133, 54, 54);
+
+    outline: rgb(133, 54, 54) 3px solid;
+}
+
+#radnoVr {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 40px;
+}
+
+#kontaktDonji {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#kontakt1 {
+    margin-top: 50px;
+}
+
+#dugmeVratiSeNaVrhStranice {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: white;
+    color: rgb(133, 54, 54);
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 4mm;
+    border: black 1px solid;
+}
+
+#staraPeka {
+    border-radius: 50%;
+}

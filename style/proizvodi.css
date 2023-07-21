@@ -1,0 +1,259 @@
+body {
+    /* background-image: url("https://i.imgur.com/tp74Cws."); */
+    background-image: url("https://i.imgur.com/r7wIjfJ.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#menu ul li {
+    background-color: rgb(133, 54, 54);
+    float: left;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 4;
+    margin-bottom: auto;
+    border-radius: 7mm;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(133, 54, 54);
+    background-color: white;
+}
+
+
+
+#gornjiProizvodi {
+    list-style-type: none;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+
+#donjiProizvodi {
+    list-style-type: none;
+    display: flex;
+
+    margin-left: 50px;
+    margin-right: 50px;
+
+    justify-content: space-between;
+
+    margin-top: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#slikaRV {
+    /* border-radius: 7mm; */
+    border-top-left-radius: 7mm;
+    border-bottom-right-radius: 7mm;
+}
+
+#slikaB {
+    border-top-left-radius: 7mm;
+    border-bottom-right-radius: 7mm;
+}
+
+#slikaP {
+    border-top-left-radius: 7mm;
+    border-bottom-right-radius: 7mm;
+}
+
+#slikaT {
+    border-top-right-radius: 7mm;
+    border-bottom-left-radius: 7mm;
+}
+
+#slikaS {
+    border-top-right-radius: 7mm;
+    border-bottom-left-radius: 7mm;
+}
+
+#slikaPlet {
+    border-top-right-radius: 7mm;
+    border-bottom-left-radius: 7mm;
+}
+
+#paragrafRV {
+    font-size: 22;
+    text-align: center;
+}
+
+#listaRV {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+
+
+#listaB {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+#paragrafB {
+    font-size: 22;
+    text-align: center;
+
+}
+
+#listaP {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+#paragrafP {
+    font-size: 22;
+    text-align: center;
+}
+
+#listaT {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+#paragrafT {
+    font-size: 22;
+    text-align: center;
+}
+
+#listaS {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+#paragrafS {
+    font-size: 22;
+    text-align: center;
+}
+
+#listaPlet {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-style: bold;
+}
+
+#paragrafPlet {
+    font-size: 22;
+    text-align: center;
+}
+
+#tiramisu {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#pizza {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#tiramisu {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#burek {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#rolVirsle {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#sendvic {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#pletenice {
+    background-color: rgb(133, 54, 54);
+
+    color: white;
+    border-radius: 7mm;
+
+}
+
+#paragrafFacebook {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border: white 3px solid;
+    background-color: rgb(133, 54, 54);
+    text-align: center;
+    font-style: italic;
+    border-radius: 7mm;
+}
+
+#naslov1 {
+    background-color: white;
+    color: rgb(133, 54, 54);
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: cursive;
+}
